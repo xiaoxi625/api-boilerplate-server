@@ -1,4 +1,4 @@
-## Dealiq PDF API
+## API
 
 ##### Building the API
 * install the app `npm install`
