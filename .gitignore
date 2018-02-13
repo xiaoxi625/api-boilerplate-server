@@ -1,0 +1,13 @@
+.DS_Store
+/src/modules/docs/temp
+/node_modules
+/dist
+.idea
+.env
+/var
+/doc
+/npm-debug.logs
+yarn.lock
+.vscode/
+swagger*
+package-lock.json
