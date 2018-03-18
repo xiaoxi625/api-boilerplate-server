@@ -4,7 +4,7 @@ dotenv.config({ silent: true });
 
 export default {
     api_version: '1.0.0',
-    community: process.env.COMMUNITY,
+    community: process.env.COMMUNITY || 'API',
     port: process.env.PORT || 5000,
     cache_enabled: process.env.CACHE_ENABLED,
     app_key: process.env.APP_KEY,

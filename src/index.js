@@ -1,5 +1,6 @@
 import express from 'express';
 import applications from './modules/applications';
+import health from './modules/health';
 import https from 'https';
 import { start } from './handlers/startup';
 
@@ -14,6 +15,7 @@ const app = express();
 let v1 = express.Router();
 
 v1.use('/applications', applications);
+v1.use('/health', health);
 
 /*
  * Register the API
